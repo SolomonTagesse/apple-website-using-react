@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Header from "./Header/Header";
+import Mainhighlight from "./Body/Mainhighlight";
+import First from "./Body/First";
+import "./css/bootstrap.css";
+import "./css/styles.css";
+import "bootstrap/js/dist/dropdown";
+import "bootstrap/js/dist/collapse";
+import "bootstrap/js/dist/carousel";
+import Second from "./Body/Second";
+import Third from "./Body/Third";
+import Fourth from "./Body/Fourth";
+import Fifth from "./Body/Fifth";
+import Carousel from "./Body/Carousel";
+import Footer from "./Footer/Footer";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Mainhighlight />
+      <First />
+      <Second />
+      <Third />
+      <Fourth />
+      <Fifth />
+      <Carousel />
+      <Footer />
+    </>
   );
 }
 
